@@ -1,15 +1,13 @@
 name: AquiferTest
 channels:
-- conda-forge
-- defaults
+  - conda-forge
 dependencies:
-- python
-- jupyter
-- jupyterlab
-- notebook
-- pandas
-- geopandas
-- scipy
-- numpy
-- matplotlib
-- pip
+  - python
+  - jupyter
+  - jupyterlab
+  - scipy
+  - numpy
+  - pip
+  - pip:
+    - matplotlib
+    - pandas
